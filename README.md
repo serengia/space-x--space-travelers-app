@@ -71,11 +71,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live project <a name="live-demo"></a>
 
-Coming soon !
-
-- [Live Demo Link](https://jamesserengia.com/)
+- [Live Project Link](https://serecode-spacex-travelers-app.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
