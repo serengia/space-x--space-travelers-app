@@ -1,0 +1,34 @@
+.header {
+  border-bottom: solid 1px #ddd;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+
+    .nav-list-item a {
+      color: #007bff;
+      text-decoration: none;
+      padding-bottom: 2px;
+      border-bottom: solid 2px transparent;
+    }
+  }
+}

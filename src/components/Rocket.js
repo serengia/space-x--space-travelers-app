@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { rocketsActions } from "../redux/rockets/rocketsSlice";
+import s from "./Rocket.module.scss";
 
 function Rocket(props) {
   const { description, id, rocket_name, flickr_images, reserved } =
@@ -20,20 +21,20 @@ function Rocket(props) {
   };
 
   return (
-    <div className="rocket">
-      <div className="rocket-img-wrapper">
-        <img className="rocket-img" src={imageURL} alt={rocket_name} />
+    <div className={s["rocket"]}>
+      <div className={s["rocket-img-wrapper"]}>
+        <img className={s["rocket-img"]} src={imageURL} alt={rocket_name} />
       </div>
-      <div className="rocket-details">
+      <div className={s["rocket-details"]}>
         <h3>{rocket_name}</h3>
         <p>
-          {reserved && <span className="reserved-badge">Reserved</span>}
+          {reserved && <span className={s["reserved-badge"]}>Reserved</span>}
           {description}
         </p>
         {!reserved && (
           <button
             type="button"
-            className="reserve-btn"
+            className={s["reserve-btn"]}
             onClick={reserveHandler}
             data-id={id}
           >
@@ -43,7 +44,7 @@ function Rocket(props) {
         {reserved && (
           <button
             type="button"
-            className="cancel-reservation-btn"
+            className={s["cancel-reservation-btn"]}
             data-id={id}
             onClick={cancelHandler}
           >
