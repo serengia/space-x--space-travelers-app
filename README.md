@@ -25,14 +25,14 @@
 
 # Space X -- Space Travelers App <a name="about-project"></a>
 
-> This is an application utilizing SpaceX data API. I build the application using react and redux toolkit.
+ This is an application utilizing SpaceX data API. I built the application using react and redux toolkit.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> - React
-> - Redux
+ - React
+ - Redux
 
 <details>
   <summary>Client</summary>
